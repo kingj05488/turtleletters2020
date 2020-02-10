@@ -201,7 +201,27 @@ elif letter == "A":
         tur.pd()
         
     elif letter == "K":
-	    pass
+	tur.pu()
+        tur.fd(10)
+        tur.right(90)
+        tur.pd()
+        tur.forward(60)
+        tur.right(180)
+        tur.fd(30)
+        tur.right(30)
+        tur.fd(30)
+        tur.right(180)
+        tur.fd(30)
+        tur.setheading(310)
+        tur.fd(30)
+        tur.right(180)
+        tur.fd(30)
+        tur.setheading(90)
+        tur.pu()
+        tur.fd(30)
+        tur.right(90)
+        tur.fd(30)
+        tur.pd()
     elif letter == "L":
 	tur.pd()
 	tur.right(90)
