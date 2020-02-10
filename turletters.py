@@ -183,7 +183,23 @@ elif letter == "A":
         tur.right(90)
         tur.fd(30)
     elif letter == "J":
-	    pass
+	tur.pu()
+        tur.fd(30)
+        tur.right(90)
+        tur.pd()
+        tur.fd(30)
+        tur.pu()
+        tur.setheading(180)
+        tur.forward(30)
+        tur.setheading(270)
+        tur.pd()
+        tur.circle(15,180)
+        tur.pu()
+        tur.fd(30)
+        tur.right(90)
+        tur.fd(10)
+        tur.pd()
+        
     elif letter == "K":
 	    pass
     elif letter == "L":
